@@ -1,0 +1,39 @@
+
+
+
+/*html {*/
+/*  font-family: 'roboto', sans-serif;*/
+/*}*/
+
+body {
+  margin: 0;
+  background-color: #f8fbff;
+}
+
+@font-face {
+  font-family: 'Markazi Text';
+  src: url('./fonts/MarkaziText-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Markazi Text';
+  src: url('./fonts/MarkaziText-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Markazi Text';
+  src: url('./fonts/MarkaziText-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Markazi Text';
+  src: url('./fonts/MarkaziText-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Markazi Text', serif;
+}
+

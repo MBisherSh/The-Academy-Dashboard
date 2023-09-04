@@ -1,0 +1,9 @@
+.unaccepted{
+    height: 65%;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+

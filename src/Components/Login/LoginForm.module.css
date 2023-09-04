@@ -1,0 +1,74 @@
+.loginForm {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 12px 12px 12px 0;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.loginFormLogo{
+    height: 30%;
+    width: 30%;
+}
+
+.login__control {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    border-radius: 35px;
+    background-color: #F2F3F8;
+    padding: 0.75rem;
+}
+
+
+
+.input {
+    direction: ltr;
+    font: inherit;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    border: 0;
+    width: 200px;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #F2F3F8 inset !important;
+}
+
+.login__control img {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.5rem;
+}
+
+.login__actions {
+    margin-top: 4rem;
+    font: inherit;
+    width: inherit;
+
+    font-weight:bold;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.login__actions button {
+    font: inherit;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #2183C6;
+    font-weight:bold;
+    text-align: center;
+    border-radius: 35px;
+    width: 100%;
+    height: 3.5rem;
+}

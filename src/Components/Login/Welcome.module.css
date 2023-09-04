@@ -1,0 +1,28 @@
+.welcome {
+    height: inherit;
+    width: 100%;
+    background-color: #2183C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+.welcomeItem{
+    height: inherit;
+    width: 75%;
+}
+
+.welcomeText{
+    width: 70%;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .welcome {
+        display: none;
+    }
+}
